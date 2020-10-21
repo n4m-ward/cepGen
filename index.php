@@ -1,7 +1,6 @@
 <?php
 
- use Nam\DigitalCep\Search;
- 
+ use N4m\DigitalCep\Search;
  require_once "vendor/autoload.php";
 
  $busca = new Search;
