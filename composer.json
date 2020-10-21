@@ -1,0 +1,21 @@
+{
+    "name": "developer/aulasphp2",
+    "description": "teste",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "jorgelima",
+        "email": "jorge.lima@teknisa.com"
+    }],
+    "require": {
+        "php": ">= 7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Nam\\DigitalCep\\": "src/"
+        }
+    }
+}
